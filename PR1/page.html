@@ -27,11 +27,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="well">            
+        <div class="col-md-6">
                 <div class = "form-inline">
                     <div class="form-group1">
+                      <div class="back">
                         <label for="user"> User: </label>
+                      </div>
                         <div>
                             <p class="tab"> Username:
                             <input type="username" class="form-control" id="inputFullname" placeholder="Type username" size="60">
@@ -46,8 +47,10 @@
                     </div>
                 </div>
                 <div class = "form-inline">
-                    <div class="form-group2">
+                    <div class="form-group1">
+                      <div class="back">
                         <label for="user"> Contact: </label>
+                      </div>
                         <div>
                             <p class="tab"> <span>&#128222;</span>
                             <input type="username" class="form-control" id="inputFullname" placeholder="Type username" size="60">
@@ -62,10 +65,10 @@
                     </div>
                 </div>
                 <div class = "form-inline">
-                    <div class="form-group"> 
-                        <p>
+                    <div class="form-group1"> 
+                      <div class="back">
                         <label for="Group">Schedule:</label>
-                        </p>
+                      </div>
                         <label for="Select">Adults:</label>
                         <select id="Select" class="form-control">
                         <option>1 </option>
@@ -91,13 +94,12 @@
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
         <hr>
 
-        <div class="col-sm-6"></div>
-        <label for="other">Other:</label>
-            <div class="form-group">
+        <div class="col-md-6"></div>
+            
+                <label for="other">Other:</label>
                     <div style="display: flex; justify-content: flex-end">
                         <div class = "form-inline">
                             <textarea class="form-control custom-textarea" type="textarea" id="message" placeholder="Type Message Here" style="min-height: 500px; min-width: 575px;"></textarea>
@@ -125,16 +127,16 @@
                                     High
                                   </label>
                                 </div>
-                              </div>
-                              
+                              </div>   
                         </div>
                 </p>                     
                 </div>
                 <p> 
                     <button type="submit" class="btn">Submit</button>
-                    <button type="submit" class="btn">Cancel</button><hr>
+                    <button type="submit" class="btn">Reset</button><hr>
                 </p>
             </div>
+          </div>
     </div>
 </div>
 

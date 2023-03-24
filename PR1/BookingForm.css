@@ -5,6 +5,13 @@
     z-index:-1;
 }
 
+.back {
+    width: 100%;
+    content:"";
+    z-index:-1;
+    background-color:#6176c1;
+}
+
 .well-header {
     font-size: 2em;
     font-weight: bold;
@@ -24,17 +31,25 @@
 }
 */
 .form-group1 {
-    padding-bottom: 250px;
-    /*border: solid 2px #348cff; */
+    padding-bottom: 260px;
+    border: 2px solid #6176c1;
+    border-radius: 5px;
     height: 40px;
 }
 
 .form-group2 {
-    padding-bottom: 250px;
-    /*border: solid 2px #348cff; */
+    padding-bottom: 260px;
+    border: 2px solid #6176c1;
+    border-radius: 5px;
     height: 40px;
 }
 
+.form-group3 {
+    padding-bottom: 260px;
+    border: 2px solid #6176c1;
+    border-radius: 5px;
+    height: 40px;
+}
 .custom-textarea {
     width: 100%;
     max-width: 100%;

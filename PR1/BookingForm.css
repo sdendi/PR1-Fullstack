@@ -38,13 +38,14 @@
 }
 
 .form-group2 {
-    padding-bottom: 260px;
+    padding-bottom: 800px;
     border: 2px solid #6176c1;
     border-radius: 5px;
     height: 40px;
 }
 
 .form-group3 {
+    padding-left: 100px;
     padding-bottom: 260px;
     border: 2px solid #6176c1;
     border-radius: 5px;
